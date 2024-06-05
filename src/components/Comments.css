@@ -1,0 +1,17 @@
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h5 {
+  margin-bottom: 20px;
+}
+
+.comments-section .list-group-item {
+  background-color: inherit;
+  border-color: inherit;
+  color: inherit;
+}
+
+.comments-section .btn {
+  margin-right: 5px;
+}

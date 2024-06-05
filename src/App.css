@@ -1,0 +1,102 @@
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.employee-details .card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar {
+  background-color: #1f1f1f;
+  border-color: #1f1f1f;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar .nav-link {
+  color: #ffffff;
+}
+
+body.dark-mode .card {
+  background-color: #2e2e2e;
+  border-color: #3a3a3a;
+  color: #ffffff;
+}
+
+body.dark-mode .btn-outline-secondary {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+body.dark-mode .container, body.dark-mode .main-container {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .card-body {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+body.dark-mode .alert {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  border-color: #3a3a3a;
+}
+
+body.dark-mode .pagination .page-link {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  border-color: #3a3a3a;
+}
+
+body.dark-mode .pagination .page-link:hover {
+  background-color: #3a3a3a;
+  color: #ffffff;
+  border-color: #3a3a3a;
+}
+
+body.dark-mode .pagination .page-item.active .page-link {
+  background-color: #ffffff;
+  color: #121212;
+  border-color: #ffffff;
+}
+
+body.dark-mode input, body.dark-mode textarea {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  border-color: #3a3a3a;
+}
+
+body.dark-mode input::placeholder, body.dark-mode textarea::placeholder {
+  color: #bbbbbb;
+}
+
+body.dark-mode .list-group-item {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  border-color: #3a3a3a;
+}
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Растягиваем контейнер на всю высоту экрана */
+}
+
+.main-container {
+  flex: 1; /* Занимаем все доступное пространство, но не меньше высоты экрана */
+}
